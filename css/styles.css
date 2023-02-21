@@ -1,0 +1,176 @@
+ body {
+    font-family: "Dosis";
+     
+} 
+h1 {
+    font-family: 'Dosis', sans-serif;
+   margin-top: -40px;
+    font-size:3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h2 
+{
+    font-size:3.5rem;
+    line-height: 1.5; 
+}
+
+h3 {
+    
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;;
+}
+ 
+.Title-img {
+    border-radius:15px;
+     margin-top:-10px;
+     }
+    .btn {
+        background-color: #E64848;
+        color: #fff;
+        margin-top:20px ;
+    }
+    .btn:hover{
+      background-color: #F65A83;
+      
+    }
+
+    #Title {
+    background-color:#CC9C75;
+    color: #fff;
+    padding:0 15% 3%;
+}
+ 
+.container-fluid {
+    padding:7% 15%;
+  }
+  .navbar {
+    padding:0 0 4.5rem;
+    
+}
+ 
+.navbar-brand {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+  .nav-item {
+ padding:0 18px;
+ 
+}
+
+.nav-link {
+    font-size:1.2rem;
+
+}
+
+
+#features {
+    padding:7% 10%;
+}
+
+.features-box {
+    text-align:center;
+    padding: 2%;
+}
+.icon {
+    color:#F65A83;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color:#E64848 ;
+}
+#Testimonials {
+    
+    text-align:center;
+    background-color: #EDDBC7;
+    color: #C92C6D;
+}
+
+.Testimonial-image {
+    width:15%;
+    border-radius: 100%;
+    margin:20px;
+}
+.carousel-item {
+    padding:7% 15%;
+
+}
+/* pricing section */
+#pricing {
+    padding:100px;
+    text-align:center;
+}
+
+.pricing-col {
+    padding:5%;
+
+}
+
+/* new arrivals section */
+#new-arrivals {
+    background-color:#EAC7C7;
+    color: #913175;
+    padding:7% 15%;
+    text-align: center;
+}
+
+.download {
+    font-size:3.5rem;
+    line-height:1.5;
+}
+.download-button {
+margin:5% 3% 5% 0;
+
+}
+
+#footer {
+padding:3% 12%;
+text-align: center;
+}
+
+.social-icons {
+    margin:20px 10px;
+}
+.f {
+color:rgb(18, 82, 232);
+}
+
+.t{
+color:rgb(75, 175, 208);
+}
+.i{
+color: purple;
+}
+.e {
+color:skyblue;
+}
+
+@media (max-width:700px) {
+
+.Title-img {
+width:100%;
+margin-top:2.5rem;
+margin-bottom:2.5rem;
+
+}
+#Title {
+text-align:left;
+
+}
+h1 {
+    font-size:2.5rem;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    }
+    
+.pricing-col {
+    padding-top:2rem;
+}
+}
